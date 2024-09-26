@@ -18,3 +18,12 @@ Route::get('/faleconosco', function () {
     return view('faleconosco');
 });
 
+Route::get('/teste', function () {
+    $clientest = array("Joao", "Antonio", "Sandra");
+    
+    return view('teste', compact('clientest'));
+});
+
+Route::get('/tabuadatematica', function () {
+    return view('tabuadatematica');
+});
