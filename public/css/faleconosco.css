@@ -108,3 +108,11 @@ footer{
     color: white;
     padding-top: 20px;
 }
+
+.fade {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+.fade.visible {
+    opacity: 1;
+}

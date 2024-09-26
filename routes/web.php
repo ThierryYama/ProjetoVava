@@ -17,3 +17,4 @@ Route::get('/historia', function () {
 Route::get('/faleconosco', function () {
     return view('faleconosco');
 });
+
